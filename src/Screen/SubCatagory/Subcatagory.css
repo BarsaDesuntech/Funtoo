@@ -1,0 +1,59 @@
+.heading {
+    display: inline-block;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-left: 50;
+
+}
+
+/* .inactivegames {
+        height: 37,
+        width: 140,
+        marginRight: "", marginLeft: 5, marginTop: 7,
+        borderWidth: 1,
+        borderColor: 'rgb(99, 195, 165)',
+        backgroundColor: 'white',
+        color: "rgb(99, 195, 165)",
+        borderBottomColor: "rgb(99, 195, 165)",
+        borderBottomWidth: 1, borderRadius: 6,
+} */
+
+.selected {
+    background-color: rgb(99, 195, 165);
+    border-color: rgb(99, 195, 165);
+    border-bottom-color: rgb(99, 195, 165);
+    border-bottom-width: 1;
+    border-radius: 4;
+    color: white;
+    margin-right: 20;
+    margin-left: 5;
+    margin-top: 7;
+    border-width: 1;
+
+}
+
+.deselected {
+    margin-right: 5;
+    margin-left: 5;
+    margin-top: 7;
+    border-width: 1;
+    border-color: rgb(99, 195, 165);
+    background-color: 'white';
+    color: "rgb(99, 195, 165)";
+    border-bottom-color: rgb(99, 195, 165);
+    border-bottom-width: 1;
+    border-radius: 4;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .Game {
+        height: 190px;
+        width: 100%;
+        border-radius: 0;
+    }
+}

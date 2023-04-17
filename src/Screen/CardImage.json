@@ -1,0 +1,29 @@
+{
+    "Card": [
+        {
+            "id": "01",
+            "image": "../Images/image1.png",
+            "title": "Decor"
+        },
+        {
+            "id": "01",
+            "image": "../Images/image2.png",
+            "title": "Decor"
+        },
+        {
+            "id": "01",
+            "image": "../Images/image1.png",
+            "title": "Decor"
+        },
+        {
+            "id": "01",
+            "image": "../Images/image2.png",
+            "title": "Decor"
+        },
+        {
+            "id": "01",
+            "image": "../Images/image3.png",
+            "title": "Decor"
+        }
+    ]
+}

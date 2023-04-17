@@ -1,0 +1,260 @@
+.box {
+    /* / border: 2px solid red; / */
+    /* / width: 99%; / */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 8px;
+    margin: 20px;
+    /* / margin: auto; / */
+    background-color: white;
+    
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+.boxInput{
+  width: 99%;
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    /* / align-items: center; / */
+    padding-top: 5px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    /* / padding-left: 1%; /
+    / border: 2px solid red; /
+    / justify-content: space-around; /
+} */
+}
+
+.boxRow {
+    text-align: start;
+   
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    padding-top: .2%;
+    padding-bottom: 5px;
+    font-size: 14px;
+    justify-content: space-between;
+
+}
+ .row22 {
+    text-align: start;
+    /* / border-bottom: 1px solid gray;  */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.gameSection {
+    width: 100%;
+  
+
+}
+.boxRow33 {
+     text-align: start;
+    /* / border-bottom: 1px solid gray; / */
+    /* / width: 100%; / */
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    /* / border: 1px solid red; / */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.paymentOption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.ImageboxCell {
+    /* / border: 1px solid red; / */
+    padding-left: .5%;
+}
+.imageText {
+    /* / border: 1px solid red; / */
+    align-items: center;
+    padding-top: 1%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* / padding-left: 1%; / */
+}
+.imageWdtHt{
+    width: 175px;
+     height: 100px;
+}
+/* .buttondiv{
+    display: flex;
+    flex-direction: row-reverse;
+    / align-items: end; /
+    / align-items: flex-end; /
+    / border: 1px solid red; /
+    
+ */
+.buttonText {
+    background-color: rgb(99, 195, 165);
+    border-radius: 5px;
+    border-color: rgb(99, 195, 165);
+    color:white;
+    border: 0;
+}
+.boxCell {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    /* / border: 1px solid red; / */
+    margin: 10px;
+    /* / border: 1px solid red; / */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.boxCell22 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* / border: 1px solid red; / */
+    margin: 10px;
+    /* / border: 1px solid red; / */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.boxCell33 {
+    width: 20%;
+    border-left: 1px solid gray;
+    /* / border: 1px solid red; / */
+    margin: 10px;
+    padding-left: 1%;
+}
+.boxCell4 {
+    width: 10%;
+    /* / border: 1px solid red;  / */
+    margin-right: 0;
+    align-items: flex-end;
+}
+.boxInputTable {
+    /* / border: 1px solid red; / */
+    width: 100%;
+}
+.tableboxRow {
+   
+    text-align: start;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* / border: 1px solid red; / */
+   
+}
+.tableboxCell{
+    /* / border: 1px solid red / */
+    width: 100%;
+}
+.tableboxCell22 {
+    /* / border: 1px solid red / */
+}
+.bottomSection{
+    width: 96%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* / margin-bottom:2% / */
+    /* / padding-bottom: 1%; /
+    / border: 1px solid red / */
+}
+.bottomSection2{
+    padding-top: 2%;
+    padding-bottom:2%
+}
+
+.bottomText {
+    padding-top: .5%;
+    padding-bottom: 1%;
+}
+
+.buttonSection {
+   
+    margin: auto;
+   
+}
+
+.buttonText {
+    width: 160px;
+    height: 40px;
+}
+.row2 {
+    /* text-align: start; */
+    /* border-bottom: 1px solid gray; */
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: .2%;
+    padding-bottom: 5px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+ 
+@media screen and (max-width: 569px) {
+    .HeaderTitle {
+       font-size:12px
+    }
+    .boxRow{
+        
+    }
+    .boxRow33 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 9;
+    }
+    /* .boxCell {
+        width: 40%;
+    }
+    .boxCell22 {
+        width: 10%;
+    }
+    
+    .boxCell33 {
+        width: 5%;
+    } */
+    .boxCell {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2.5%;
+        /* / border: 1px solid red; / */
+        margin: 10px;
+        /* / border: 1px solid red; / */
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .imageText {
+    align-items: center;
+    padding-top: 1%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    /* / font-size: 9; /
+    / justify-content: space-between; / */
+    }
+    .imageWdtHt{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* .paymentSection {
+        width: 40%;
+    } */
+
+}     

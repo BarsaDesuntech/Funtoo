@@ -1,0 +1,106 @@
+.navCont{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    background:rgb(99, 195, 165)
+}
+.textDiv{
+    width: 54%;
+    /* border-radius: 1px solid red; */
+}
+.btnDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2%;
+    font-size:25;
+   
+    /* margin-right: 1%; */
+}
+.btnSize{
+    font-size: 25px;
+    /* color:red */
+}
+/* .modalDiv {
+    /* border: 1px solid red; */
+    /* display: flex;  */
+    /* padding-left: 50%; */
+     /* flex-direction: row-reverse; */
+     /* justify-content: flex-end; */
+    /* width: 100%; */
+    /* width: 250px; */
+
+.HeaderSubTitle{
+    font-size: 30px;
+    /* width: 64%, */
+}
+.buttonsSelect:active{
+    color: rgb(99, 195, 165);
+}
+
+/* .bodyModal {
+    /* width: 50%; */
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: row-reverse; */
+
+.modalStyle {
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* width : 250px; */
+    /* display: flex;
+     flex-direction: row-reverse;   */
+     /* margin: auto; */
+     padding-left: 78%;
+     /* padding-right: -20%; */
+     size: sm;
+     /* border: 1px solid red; */
+     display: flex;
+    flex-direction: row-reverse; 
+    margin-top: 5px;
+    padding-top: 1%;
+}
+
+/* @media (min-width: 576px) {
+    .modal-dialog {
+    max-width: fit-content;
+    margin: 1.75rem auto;
+    }
+} */
+
+@media screen and (max-width: 480px) {
+    .HeaderSubTitle{
+        font-size: 20px;
+        width: 34%,
+    }
+    .btnSize{
+        font-size: 15PX;
+    }
+    .btnDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 2%;       
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-right:1% ;
+    }
+    .modalStyle {
+        /* width: 100%; */
+        /* border: 1px solid red; */
+        /* width : 250px; */
+        /* display: flex;
+         flex-direction: row-reverse;   */
+         /* margin: auto; */
+         padding-left: 10%;
+         /* padding-right: -20%; */
+         size: sm;
+         /* border: 1px solid red; */
+         display: flex;
+        flex-direction: row-reverse; 
+        margin-top: 2px;
+        /* padding-top: 1%; */
+    }
+
+}

@@ -1,0 +1,10 @@
+.container {
+  background-color: white;
+  flex: 1;
+  overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+  .SpaceHomePage{
+      height: 270px;
+      }
+} 

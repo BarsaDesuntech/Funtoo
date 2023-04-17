@@ -1,0 +1,54 @@
+/* input[type="text"]{
+    margin-top: 18px;
+    margin-bottom: 5px;
+} */
+#a {
+    margin-top: 15px;
+    color: rgb(99, 195, 165);
+    border: 1px #eee;
+    background-color: #eee;
+    font-size: 16;
+}
+
+#a:hover {
+    color: red;
+}
+
+/* body {
+    background-color: rgb(149, 167, 212);
+} */
+
+#B {
+    border-radius: 7px;
+    border: 2px rgb(61, 196, 61);
+    width: 140px;
+    height: 6vh;
+    font-size: 19px;
+    background-color: rgb(21, 177, 21);
+    color: rgb(241, 236, 236);
+    margin-left: 2px;
+    margin-top: 10px;
+
+}
+
+#B:hover {
+    background-color: darkcyan;
+    color: red;
+}
+
+#EML {
+    border-radius: 5.2px;
+    /* border: rgb(149, 167, 212); */
+    width: 318px;
+    margin-right: 2px;
+    height: 5.6vh;
+}
+
+#PWD {
+    border-radius: 5.2px;
+    /* border: rgb(149, 167, 212); */
+}
+
+/* body {
+    background-color: rgb(109, 131, 187);
+} */

@@ -1,0 +1,21 @@
+.color-nav {
+  background-color: rgb(99, 195, 165);
+  
+}
+.buttons{
+  border-width: 0;
+  background-color: white;
+  
+  color: black;
+  margin-bottom: 15; 
+}
+.buttonsSelect {
+  border-width: 0;
+  background-color: white;
+ 
+  color: rgb(99, 195, 165);
+  margin-bottom: 15;
+}
+.buttons:hover{
+color: rgb(99, 195, 165);
+}

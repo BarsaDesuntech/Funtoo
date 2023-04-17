@@ -1,0 +1,26 @@
+.addCart{
+    width: 100px;
+    height: 40px;margin-left: 50px;margin-right: 50px;
+    background-color: rgb(99, 195, 165);
+    border-radius: 6px;color: white;
+   border-color: rgb(99, 195, 165);
+    border-width: 1;
+
+    display: inline-block;
+  width: calc(41% - 4px);
+  margin: 0 auto;
+}
+/* .addCart:hover{
+    background-color: white; color:rgb(99, 195, 165);border-color: rgb(99, 195, 165);
+} */
+.wishlist{
+    width: 10px;
+    height: 40px;margin-left: 50px;margin-right: 50px;
+    background-color: grey;
+    border-radius: 6px;color: white;
+  border-color:grey;
+    border-width: 1;
+    display: inline-block;
+  width: calc(42% - 4px);
+  margin: 0 auto;
+}

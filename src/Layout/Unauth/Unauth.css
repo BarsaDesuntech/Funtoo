@@ -1,0 +1,24 @@
+.locked {
+    margin-top: 150px;
+    color: rgb(99, 195, 165)
+}
+
+.loktex {
+    text-align: center !important;
+    color: rgb(99, 195, 165)
+}
+
+#asAa {
+    /* border: 2px solid black; */
+    background-color:rgb(99, 195, 165);
+    color: white;
+    border-radius: 6px;
+    width: 130px;
+    font-size: 17px;
+    border: none;
+}
+
+/* #asAa:hover {
+    background-color: brown;
+    color: white;
+} */

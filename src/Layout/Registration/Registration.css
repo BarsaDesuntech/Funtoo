@@ -1,0 +1,44 @@
+/* input[type="text"] {
+    margin-top: 28px;
+    margin-left: 10px;
+} */
+/* 
+input[type="email"] {
+    margin-top: 30px;
+    margin-left: 36px;
+} */
+
+#UNM {
+    border-radius: 7px;
+   
+}
+
+.BT {
+    border-radius: 7px;
+    border: 2px rgb(61, 196, 61);
+    width: 400px;
+    height: '50%';
+    font-size: 19px;
+    /* background-color: rgb(99, 195, 165); */
+    color: rgb(99, 195, 165);
+    margin-left: 2px;
+    margin-top: 10px;
+
+    /* width:'50%',height:'50%',borderWidth:0,borderRadius:5,
+              backgroundColor:'rgb(99, 195, 165)' */
+}
+
+#BT:hover {
+    background-color: fuchsia;
+    color: black;
+}
+/* .Confirm{
+margin-top: 30px;
+margin-right: 120px;
+}
+@media screen and (max-width: 480px) {
+    .Confirm{
+        
+        margin-left: -150;
+        }
+} */

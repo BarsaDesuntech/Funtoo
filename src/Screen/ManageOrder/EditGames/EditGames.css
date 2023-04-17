@@ -1,0 +1,234 @@
+.bodyContainer {
+    width: 98%;
+    /* border: 1px solid red; */
+    margin: auto;
+    border-radius: 8px;
+    /* padding-top: 1%; */
+    /* padding-bottom: 10px; */
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0), 2px 2px 2px 2px rgba(0, 0, 0, 0);
+}
+
+.subtitle {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-bottom: 10px;
+}
+
+.subContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+.imageContainer {
+    
+    /* border: 1px solid red; */
+    padding-left: 1%;
+
+}
+
+.textContainer {
+    /* border: 1px solid red; */
+    padding-top: 2%;
+    padding-left: 1%;
+    /* font-size: 25px; */
+    text-align: center;
+}
+
+.priceText {
+   
+    /* border: 1px solid red; */
+    padding-top: 2%;
+    padding-right: 3%;
+    
+}
+
+.btn__container {
+    padding-top: 5%;
+    
+}
+
+.inputText {
+    width: 30px;
+    height: 26px;
+    border: 0;
+}
+
+.control__btn1 {
+    background-color: rgb(221, 217, 217);
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 20px;
+    height: 26px;
+}
+
+.control__btn2 {
+    background-color: rgb(221, 217, 217);
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 20px;
+    height: 26px;
+}
+
+/* .inputText {
+
+} */
+
+.saveButton {
+    width: 20%;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    padding-top: 3%;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+    margin: auto;
+   
+    
+}
+
+.savebutton {
+    width: 100%;
+    border-radius: 8px;
+    height: 48px;
+    background-color: rgb(99, 195, 165);
+    border: none;
+    color: white;
+}
+.imageStyle{
+    width: 200px;
+    height: 150px;
+}
+.modal-dialog {
+    max-width: 422px;
+    padding-top: 8%;
+  }
+.modalBodyDiv{
+    /* border: 1px solid black; */
+    /* width: 300px; */
+    max-width: 422px;
+}
+.searchModal {
+    width: 300px;
+    padding-bottom: 15%;
+    margin: auto;
+   
+    /* height: 15Vh; */
+    /* background-color: red; */
+}
+.ModalInput {   
+    width: 300px;
+    /* margin:auto;    */
+    border-radius: 5px;
+    /* padding-bottom: 3%; */
+    background-color: white;
+    height: 45px;
+  }
+  .Modaltext {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    /* margin-left: 5%; */
+    /* background-color:red */
+  }
+
+
+@media screen and (max-width: 569px) {
+    .HeaderTitle {
+       font-size:12px
+    }
+    .imageStyle {
+        width: 100px;
+        height: 100px;
+    }
+    .textContainer {
+        /* border: 1px solid red; */
+        padding-top: 1%;
+        padding-bottom: 3%;
+        /* padding-left: 1%; */
+        /* font-size: 25px; */
+        text-align: center;
+    }
+    
+    
+    .subContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 12;
+    }
+    .searchModal {
+        width: 380px;
+        padding-bottom: 25%;
+        margin: auto;
+       
+        /* height: 15Vh; */
+        /* background-color: red; */
+    }
+    .modal-dialog {
+        max-width: 300px;
+        margin: auto;
+      }
+      .Modaltext {
+        margin-left:3% ;
+        /* margin-right: 2%; */
+      }
+    .ModalInput {   
+        /* width: 350px; */
+        /* margin:auto;    */
+        border-radius: 5px;
+        width: 230px;
+        /* padding-bottom: 3%; */
+        background-color: white;
+        height: 30px;
+        margin-left:2% ;
+        margin-right: 2%;
+      }
+     .searchItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 240px;
+     } 
+     .imgStyle{
+        height: 20;
+        width: 20;
+     }
+     .modaSubText{
+        width: 240px;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+        /* background-color: red; */
+     }
+     .subContainer {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        /* border: 1px solid red; */
+        background-color: white;
+        border-radius: 5px;
+    }
+    .imageStyle {
+        width: 50px;
+        height: 50px;
+    }
+    .resText{
+        font-size: 13px;
+        font-weight: 500;
+    }
+}

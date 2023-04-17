@@ -1,0 +1,27 @@
+{
+    "product":[
+    {"id":"01",
+    "image":"../Images/cat5.jpg" ,"title":"Games" 
+    },
+    
+    {"id": "04",
+        "image": "../Images/cat2.png","title": "Activities"},
+        {
+            "id": "01",
+            "image": "../Images/cat5.jpg",
+            "title": "Games"
+        },
+    
+    {"id": "01",
+        "image": "../Images/cat3.png","title": "Decffor"},
+        {
+            "id": "01",
+            "image": "../Images/cat5.jpg",
+            "title": "Games"
+        },{
+            "id": "01",
+            "image": "../Images/cat3.png",
+            "title": "Decffor"
+        }
+]
+}

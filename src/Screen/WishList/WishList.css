@@ -1,0 +1,9 @@
+.shopping{
+    background-color: rgba(187, 9, 9, 0.897);
+    border-width: 0;
+    height: 50px;width: 400px;color: white; border-radius: 7px;
+}
+.shopping:hover{
+    background-color: rgb(99, 195, 165);
+    
+}

@@ -1,0 +1,42 @@
+.color-nav {
+  background-color: rgb(99, 195, 165);
+  
+}
+.footer {
+margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(99, 195, 165);
+ /* position: fixed; */
+ /* bottom: 0; */
+  width: 100%;
+  justify-content: space-between;
+ 
+
+}
+.tabNav{
+  float: left;
+  background-color: rgb(99, 195, 165);
+  border-color:rgb(99, 195, 165) ;
+  margin-left: 10px;
+  width: 20;height: 20;right: 50;
+  
+}
+.select{
+  color: white;
+ 
+}
+.deselect{
+  color: black;
+ 
+}
+.Icons{
+  color:white;
+  height:20px;width:20px;
+  font-size: 24px;
+}
+.Icons:hover{
+  color:rgba(145, 16, 16, 0.767) ;
+  
+  border-width: 5;border-radius: 5;
+}
+

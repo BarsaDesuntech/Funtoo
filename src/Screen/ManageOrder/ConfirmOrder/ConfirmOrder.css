@@ -1,0 +1,248 @@
+.mainCont{
+    /* border: 2px solid red; */
+    width: 100%;
+    padding-bottom: 1%;
+}
+.container {
+    /* border: 2px solid red; */
+    padding-top: 1%;
+    /* padding-bottom: 25px; */
+    /* padding-bottom: -1px; */
+    border-radius: 8px;
+    
+    margin-bottom: 1%;
+}
+.container33 {
+    /* border: 2px solid red; */
+    padding-top: 1%;
+    /* padding-bottom: 25px; */
+    /* padding-bottom: -1px; */
+    border-radius: 8px;
+    
+    margin-bottom: 1%;
+}
+
+.inputContainer{
+    width: 100%;
+    /* background-color: white; */
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 5px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    /* border: 2px solid red; */
+    /* justify-content: space-around; */
+    
+}
+
+.row {
+    /* text-align: start; */
+    /* border-bottom: 1px solid gray; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-top: .2%; */
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+/* .row22 {
+    text-align: start;
+    /* border-bottom: 1px solid gray; */
+    /* display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 14px; */
+    /* border: 1px solid red; */
+
+/* }  */
+.row33 {
+    text-align: start;
+    /* border-bottom: 1px solid gray; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+
+}
+
+.ImageText {
+    /* border: 1px solid red; */
+    align-items: center;
+    padding-top: 1%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttondiv{
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: end; */
+    /* align-items: flex-end; */
+    /* border: 1px solid red; */
+    
+}
+.buttonText {
+    background-color: rgb(99, 195, 165);
+    border-radius: 5px;
+    border-color: rgb(99, 195, 165);
+    color:white;
+    border: 0;
+}
+.cell {
+    text-align: start;
+    width: 40%;
+    /* border: 1px solid red; */
+    /* margin: 5px; */
+}
+.cell22 {
+    width: 29%;
+    /* display: flex;
+    flex-direction: column; */
+    /* border: 1px solid red; */
+    /* margin: 10px; */
+    /* border: 1px solid red; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    align-items: center;
+}
+.cell33 {
+    width: 29%;
+    border-left: 1px solid gray;
+    /* border: 1px solid red; */
+    /* margin: auto */
+    /* padding: auto; */
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.cell4 {
+    width: 10%;
+    /* border: 1px solid red;  */
+    margin-right: 0;
+    align-items: flex-end;
+}
+.googlerow {
+    text-align: start;
+    /* border-bottom: 1px solid gray; */
+    /* border: 1px solid red; */
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    padding-top: .2%;
+    padding-bottom: 5px;
+    font-size: 14px;
+    justify-content: space-between;
+  
+}
+.googlecell {
+    width: 40%;
+    /* border-bottom: 1px solid red;  */
+    padding-left: 0;
+}
+.googlecell22 {
+    width: 48%;
+    text-align:start;
+    /* border-bottom: 1px solid red; */
+}
+.inputTable {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.tablerow {
+   
+    text-align: start;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+   
+}
+.tablecell{
+    /* border: 1px solid red */
+    width: 100%;
+}
+/* .tablecell22 {
+    /* border: 1px solid red */
+
+.imageCell{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-right: 1%;
+}
+.imageWidth{
+    width: 175px;
+    height: 100px;
+}
+
+
+@media screen and (max-width: 569px) {
+    .HeaderTitle {
+       font-size:12px
+    }
+    .inputContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .cell {
+        /* width: 30%; */
+        text-align: left;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* border: 1px solid red; */
+    }
+    .cell22 {
+        /* width: 25%; */
+        font-size: 10px;
+    }
+    .cell33 {
+        /* width: 25%; */
+        font-size: 12px;
+    }
+    .row33{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ImageText {
+    align-items: center;
+    padding-top: 1%;
+    /* width: 40%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    }
+    .imageWidth{
+        width: 90px;
+        height: 90px;
+        padding-right: 1%;
+    }
+    .row33{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .googlecell{
+        font-size: 12px;
+    }
+    .googlecell22{
+        font-size: 12px;
+    }
+
+}    
